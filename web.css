@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto Mono', monospace, 'Gabarito';
+}
+
+body {
+    background-image: url('dark-car-vehicle-neon-uq.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+background-color: blue;
+}
+
+span {
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    padding: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+ul h1 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.quote {
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.quote h1 {
+    font-size: 50px;
+}
+
+h1, p, .shop {
+    margin-bottom: 10px;
+}
+
+.shop {
+    background-color: transparent;
+    border: solid white 1px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.product {
+    justify-content: center;
+    text-align: center;
+}
+
+.card-main-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.card-content {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-container img {
+    width: 80%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+}
